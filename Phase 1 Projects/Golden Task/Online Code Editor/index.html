@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Code Editor</title>
+    <!-- Link to FontAwesome kit for icons -->
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/23cd7b8172.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="head">
+        <h1>ONLINE CODE EDITOR<i class="fa-solid fa-laptop-code"></i></h1>
+    </div>
+    <div class="container">
+        <div class="left">
+            <!-- HTML Textarea -->
+            <label for="html-id"><i class="fa-brands fa-html5"></i> HTML</label>
+            <textarea id="html-id" onkeyup="run()" placeholder="Enter your HTML code here"></textarea>
+            <!-- CSS Textarea -->
+            <label for="css-id"><i class="fa-brands fa-css3-alt"></i> CSS</label>
+            <textarea id="css-id" onkeyup="run()" placeholder="Enter your CSS code here"></textarea>
+            <!-- JavaScript Textarea -->
+            <label for="js-id"><i class="fa-brands fa-js"></i> JAVASCRIPT</label>
+            <textarea id="js-id" onkeyup="run()" placeholder="Enter your JavaScript code here"></textarea>
+        </div>
+        <div class="right">
+            <!-- Output iframe -->
+            <label for="output"><i class="fa-solid fa-play"></i> OUTPUT</label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+    <!-- Script for handling code execution -->
+    <script src="./index.js"></script>
+    <footer>
+        Copyright © All Rights Reserved | Bharat Rathi
+    </footer>
+</body>
+</html>
