@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--  Header -->
+    <header class="header">
+        <a href="#" class="logo"> <span>B</span>harat</a>
+
+        <i class="bx bx-menu" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+        </nav>
+
+        <a href="#contact" class="btn">Contact Me</a>
+
+    </header>
+    
+
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hi, I'm <span1>BHARAT RATHI</span1></h3>
+           
+            <h1>I'm a <span>Web Developer</span></h1>
+            <p>Passionate and dedicated, I'm a front-end developer with a keen eye for detail and a love for crafting seamless digital experiences. I thrive on the creative challenge of turning ideas into innovative, user-friendly web solutions. With a strong foundation in JavaScript, HTML, CSS, and various front-end frameworks, I'm always eager to explore emerging technologies and stay at the forefront of web development. Let's create something exceptional together.</p>
+
+            <div class="social-media">
+                <a href="https://github.com/bharatt02/"><i class="fa-brands fa-github"></i></i></a>
+                <a href="https://www.linkedin.com/in/bharat-rathi-30a6842a0/"><i class='bx bxl-linkedin'></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+
+            <div class="btn-container">
+                    <a href="#" class="btn" id="download-btn">Download CV</a>
+                    <a href="#contact" class="btn" id="hire-me-btn">Hire Me</a>
+
+            </div>
+        </div>
+
+        <div class="home-img">
+            <img src="assets/developer.gif" alt="">
+        </div>
+    </section>
+
+    
+    <!-- About section -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="assets/web-developer.gif" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Web Design <span>&</span> Developer</h3>
+            <p>I possess expertise as a Web Developer and have a deep enthusiasm for creating designs
+                that are both aesthetically pleasing and highly functional.
+            I am an expert in designing user-friendly and attractive interfaces. I am
+            proficient in a range of design software including Adobe XD, Figma, and have
+            experience with clients across a variety of industries.</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+        <div class="services-container">
+
+            <div class="services-box">
+                <i class="bx bx-code-alt"></i>
+                <h3>Frontend Development</h3>
+                <p>Specialize in crafting the visual and interactive elements that users see and interact with on the front end.
+                    Ensure that your website looks great and functions seamlessly.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="bx bx-data"></i>
+                <h3>Backend Development</h3>
+                <p>Learning to build the backend logic, manage databases, and create robust APIs that power modern web applications &
+                    excited to dive into the server-side of web applications
+                </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+            <div class="services-box">
+                <i class="bx bx-mobile-alt"></i>
+                <h3>Responsive Web Design</h3>
+                <p>Specialize in designing websites that not only scale beautifully but also offer a consistent and Responsivness is about creating websites that look great from desktops to smartphones. </p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- projects section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Last <span>Projects</span></h2>
+        <div class="portfolio-container">
+    
+            <div class="portfolio-card">
+                <h3>Link Shortner</h3>
+                <img  src="assets/project3.png" alt="" >
+                <a href="" class="btn" >View Project</a>
+            </div>
+
+            <div class="portfolio-card">
+                <h3>Online Code Editor</h3>
+                <img src="assets/project2.png" alt="">
+                <a href="" class="btn">View Project</a>
+            </div>
+
+            <div class="portfolio-card">
+                <h3>NetFlix Clone</h3>
+                <img src="assets/project1.png" alt="">
+                <a href="" class="btn">View Project</a>
+            </div>
+
+    
+        </div>
+    </section>
+
+        <!-- contact info section -->
+        <section class="contact" id="contact">
+            <h2 class="heading"> Contact <span>Me <i class="bx bx-heart"></i></span></h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+
+        </section>    
+
+<!--Footer section -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Made with <i style="color: red;" class="bx bx-heart"></i> by Bharat copyright &copy; 2023 | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
